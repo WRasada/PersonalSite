@@ -9,7 +9,7 @@ ActionMailer::Base.smtp_settings = {
 	:address				=> ENV['MAILGUN_SMTP_SERVER'],
 	:user_name			=> ENV['MAILGUN_SMTP_LOGIN'],
 	:password				=> ENV['MAILGUN_SMTP_PASSWORD'],
-	:domain	   		  => 'https://calm-badlands-25451.herokuapp.com/',
+	:domain	   		  => 'protected-hollows-77014.herokuapp.com',
 	:authentication	=> :plain,
 }
 ActionMailer::Base.delivery_method = :smtp
