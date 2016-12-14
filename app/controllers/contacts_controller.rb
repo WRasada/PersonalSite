@@ -14,12 +14,12 @@ class ContactsController < ApplicationController
 		# Save the Contact object to the database
 		if @contact.save
 			# # Store form fields via parameters, into variables
-			# name = params[:contact][:name]
-			# email = params[:contact][:email]
-			# body = params[:contact][:comments]
+			name = params[:contact][:name]
+			email = params[:contact][:email]
+			body = params[:contact][:comments]
 			# # Plug variables into Contact Mailer
 			# # email method and send email
-			# ContactMailer.contact_email(name, email, body).deliver
+			ContactMailer.contact_email(name, email, body).deliver
 			# # Store success message in flash hash
 			# # and redirect to the new action
 			flash[:success] = "Message Sent."
