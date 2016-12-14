@@ -33,10 +33,16 @@
  				<div class="collapse navbar-collapse" id="main-navbar">
  					<ul class="nav navbar-nav navbar-right">
             <li><%= link_to "About", about_path %></li>
+            <li><%= link_to "Contact Me", contactme_path %></li>
  					</ul>
  				</div> <!-- End Nav Elements -->
    		</div> <!-- close containerv -->
   	</nav>
+
+      <div class="container"></div>
+        <% flash.each do |type, msg| %>
+          <%= content_tag :div, msg, class: "alert alert-#{type}" %>
+        <% end %>
     <%= yield %>
   </body>
 </html>
