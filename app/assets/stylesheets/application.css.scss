@@ -18,6 +18,12 @@
 @import 'font-awesome-sprockets';
 @import 'font-awesome';
 
+/* Constant Layout Styles */
+
+body {
+	background-color: #BBBBBB
+}
+
 /* Typography Styles */
 h1, h2, h3 {
 	font-family: 'Oswald', sans-serif;
@@ -77,4 +83,17 @@ h1, h2, h3 {
 
 .commentform {
 	resize: none;
+}
+
+/* Contact Page Styles */
+
+.contact {
+	padding-bottom: 50px;
+	margin-top: -20px;
+	padding-right: 40px;
+	background-color: #EEEEEE;
+}
+
+.well {
+	box-shadow: 1px 1px 20px #888888;
 }
