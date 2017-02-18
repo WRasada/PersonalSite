@@ -4,9 +4,12 @@ body {
   background-position: center;
   font-family: Lato;
   color: white;
-  transition-property: all;
-  transition-delay: 2s;
 }
+
+.navbar .navbar-default {
+  display: none;
+}
+
 html {
   height: 100%;
 }
@@ -30,6 +33,7 @@ hr {
   border: none;
   color: white;
 }
+
 .navbar-header .navbar-brand{
   font-family: Audiowide;
   color: white;
