@@ -204,6 +204,7 @@ p {
   display: none;
   background: rgba(0, 0, 0, 0.4);
   text-align: center;
+  padding-top: 50px;
   padding-bottom: 20px;
   margin: -20px;
 }
