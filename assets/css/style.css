@@ -1,35 +1,43 @@
+/******** DEFAULT STYLES ********/
 body {
-  background: url("../images/background3.jpg");
-  background-size: cover;
-  background-position: center;
   font-family: Lato;
-  color: white;
-}
-
-.navbar .navbar-default {
-  display: none;
 }
 
 html {
   height: 100%;
 }
 
-hr {
-  width: 400px;
-  border-top: 1px solid #f8f8f8;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2)
+h1 {
+  font-weight: 700;
+  font-size: 5em;
 }
 
-#content {
-  padding-top: 25%;
-  text-align: center;
-  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.6),
-               0px 8px 13px rgba(0, 0, 0, 0.2),
-               0px 18px 23px rgba(0, 0, 0, 0.2);
+.blogPage .navbar-default {
+  background-color: rgba(0,0,0, 1);
+}
+
+p {
+  text-indent: 20px;
+}
+
+
+/******** INDEX STYLES ********/
+
+#homePage {
+  background: url("../images/background.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: transparent;
 }
 
 .navbar-default {
-  background-color: transparent;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.6);
   border: none;
   color: white;
 }
@@ -43,11 +51,6 @@ hr {
   color: white;
 }
 
-h1 {
-  font-weight: 700;
-  font-size: 5em;
-}
-
 .trademark {
   position: relative;
   bottom: 10px;
@@ -58,4 +61,113 @@ h1 {
 .navbar-default .navbar-toggle .icon-bar {
   background-color: white;
   border-bottom: 1px solid #aaa;
+}
+
+.blogBtn {
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+}
+
+.blogBtn:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  box-shadow: 0 0 6px white;
+}
+
+.blogBtn:focus, .blogBtn:active:focus {
+  background-color: rgba(22, 22, 22, 0.5);
+  border: none;
+  outline: none;
+  box-shadow: 0 0 10px 2px white;
+}
+
+#messageSeparator {
+  width: 0;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2)
+}
+
+#landingMessage {
+  padding-top: 25%;
+}
+
+#myName, #myNameContent {
+  display: none;
+  text-align: center;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.6),
+               0px 8px 13px rgba(0, 0, 0, 0.2),
+               0px 18px 23px rgba(0, 0, 0, 0.2);
+}
+
+/******** BLOG STYLES ********/
+
+.blogPosts, .blogInfo, p:nth-of-type(1) {
+  border-radius: 2%;
+  font-family: sans-serif;
+  background: rgba(40, 56, 70, 0.42);
+  margin-bottom: 10px;
+  color: white;
+  padding: 15px;
+  height: 100%;
+  font-size: 16px;
+  border: 1px solid;
+  border-color: #5185d2 #0d1a2c;
+}
+
+.blogInfo {
+  margin-top: 30px;
+}
+
+#blogPage {
+  height: 100%;
+  background: #141E30; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #141E30 , #08182a); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #141E30 , #08182a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.postDate {
+  color: rgb(107, 179, 255);
+  margin-top: 5px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.blogTitle {
+  color: white;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  font-family: Oswald;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.6),
+               0px -2px 15px rgba(0, 0, 0, 0.5),
+               0px 6px 10px rgba(0, 0, 0, 0.5);
+}
+
+.blogInfo .blogTitle {
+  padding-bottom: 0;
+  margin-top: 0;
+  text-align: center;
+}
+
+.blogSeparator {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #5185d2, #91eff9, #5185d2);
+}
+
+.blogInfo ul, .blogInfo ul a{
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  font-family: Oswald;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+.blogInfo ul a:hover {
+  color: rgb(31, 69, 120);
 }
