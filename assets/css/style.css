@@ -38,6 +38,7 @@ p {
   display: none;
   background-color: rgba(0, 0, 0, 0.6);
   border: none;
+  margin-bottom: 0;
   color: white;
 }
 
@@ -206,7 +207,6 @@ p {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 20px;
-  margin: -20px;
 }
 
 .aboutHeader img {
