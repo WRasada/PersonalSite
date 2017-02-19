@@ -195,7 +195,6 @@ p {
 /************************ ABOUT STYLES ************************/
 
 #aboutPage {
-  height: 100%;
   background: url('../images/aboutBG.jpg');
   background-size: cover;
   background-position: center;
@@ -205,7 +204,7 @@ p {
   display: none;
   background: rgba(0, 0, 0, 0.4);
   text-align: center;
-  height: 30%;
+  padding-bottom: 20px;
   margin: -20px;
 }
 
@@ -243,4 +242,9 @@ p {
 
 .aboutTitle {
   text-align: center;
+}
+
+.mySkills ul ul {
+  padding-left: 20px;
+  padding-bottom: 7px;
 }

@@ -4,7 +4,7 @@
 $('.navbar-default').fadeIn(1200, function(){
   $('#myName').fadeIn(1000, function(){
     $('#messageSeparator').animate({
-      width: '40%'
+      width: '50%'
     }, 1000);
     $('#myNameContent').fadeIn(800);
   });
