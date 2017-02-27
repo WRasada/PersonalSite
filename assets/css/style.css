@@ -106,9 +106,10 @@ p {
   background-color: rgba(0,0,0, 1);
 }
 
-.fa-plus, .fa-plus:before {
+.icon1 a, .icon2 a {
+  text-decoration: none;
   float: right;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .blogContainer {
@@ -133,6 +134,11 @@ p {
 .blogPosts {
   float: right;
 }
+
+.posts {
+  display: none;
+}
+
 .blogInfo {
   margin: 30px 0;
   position: relative;
@@ -158,7 +164,6 @@ p {
 .blogTitle, .aboutTitle {
   color: white;
   text-transform: uppercase;
-  padding-bottom: 10px;
   font-family: Oswald;
   text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.6),
                0px -2px 15px rgba(0, 0, 0, 0.5),

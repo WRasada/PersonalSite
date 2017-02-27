@@ -17,10 +17,14 @@ $('#blogPage .navbar-default').fadeIn(1200, function(){
   $('.blogContainer').fadeIn(1000);
 });
 
-$('.fa-plus').on("click", function(){
-  $('.post').slideToggle(1000);
-})
-          //************* ABOUT JS *************//
+$('.icon1').on("click", function(){
+    $(".post1").slideToggle(1000);
+});
+
+$('.icon2').on("click", function(){
+    $(".post2").slideToggle(1000);
+});
+      //************* ABOUT JS *************//
 
 $('#aboutPage .navbar-default').fadeIn(1200, function(){
   $('.aboutHeader').slideDown(1100, function(){
