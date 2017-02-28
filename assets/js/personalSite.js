@@ -17,12 +17,10 @@ $('#blogPage .navbar-default').fadeIn(1200, function(){
   $('.blogContainer').fadeIn(1000);
 });
 
-$('.icon1').on("click", function(){
-    $(".post1").slideToggle(1000);
-});
-
-$('.icon2').on("click", function(){
-    $(".post2").slideToggle(1000);
+$('.icon').each(function(){
+	$(this).on('click', function(){
+	$('+ hr + h2 + .posts', this).slideToggle(1000);
+ });
 });
       //************* ABOUT JS *************//
 

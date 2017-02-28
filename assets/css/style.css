@@ -106,12 +106,6 @@ p {
   background-color: rgba(0,0,0, 1);
 }
 
-.icon1 a, .icon2 a {
-  text-decoration: none;
-  float: right;
-  font-size: 15px;
-}
-
 .blogContainer {
   display: none;
   padding: 20px 34px;
@@ -154,6 +148,7 @@ p {
 .postDate {
   color: rgb(191, 231, 255);
   margin: 5px 0;
+  display: inline;
   font-weight: normal;
   letter-spacing: 2px;
   font-size: 15px;
@@ -196,6 +191,17 @@ p {
 .blogInfo ul a:hover {
   color: rgb(134, 186, 255);
 }
+
+.icon {
+  color: rgb(191, 231, 255);
+  font-size: 15px;
+  float: right;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
 
 /************************ ABOUT STYLES ************************/
 
