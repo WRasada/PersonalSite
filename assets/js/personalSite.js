@@ -4,13 +4,12 @@
 $('.navbar-default').fadeIn(1200, function(){
   $('#myName').fadeIn(1000, function(){
     $('#messageSeparator').animate({
-      width: '50%'
+      width: '40%'
     }, 1000);
     $('#myNameContent').fadeIn(800);
   });
 });
 
-$('.navbar-default')
           //************* BLOG JS *************//
 
 $('#blogPage .navbar-default').fadeIn(1200, function(){
